@@ -132,7 +132,7 @@ const simulateAIProcessing = async (prompt: string, type: string): Promise<any> 
   return { message: 'Processed: ' + prompt };
 };
 
-export const useAIStore = create<AIStore>((set, get) => ({
+export const useAIStore = create<AIStore>((set) => ({
   isProcessing: false,
   error: null,
   apiKey: localStorage.getItem('ai_api_key'),

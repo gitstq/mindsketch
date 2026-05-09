@@ -29,8 +29,6 @@ export const flowchartToCanvasObjects = (nodes: FlowchartNode[]): CanvasObject[]
         break;
       case 'decision':
         // Diamond shape using polygon approximation
-        const cx = node.x + node.width / 2;
-        const cy = node.y + node.height / 2;
         shape = {
           id: node.id,
           type: 'rectangle',

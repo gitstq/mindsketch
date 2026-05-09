@@ -53,7 +53,6 @@ export const ExportPanel: React.FC = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
   
   const { objects } = useCanvasStore();
-  const canvasContainerRef = useRef<HTMLDivElement>(null);
 
   const handleExport = async (format: ExportFormat) => {
     setExporting(format);

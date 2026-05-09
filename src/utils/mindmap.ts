@@ -1,5 +1,4 @@
 import type { MindMapNode, CanvasObject } from '@/types';
-import { v4 as uuidv4 } from 'uuid';
 
 const NODE_WIDTH = 120;
 const NODE_HEIGHT = 40;

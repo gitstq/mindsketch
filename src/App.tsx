@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Header, Toolbar, Canvas, AIPanel, ExportPanel, PropertiesPanel } from '@/components';
 import { useKeyboard } from '@/hooks';
 import { useCanvasStore } from '@/stores';

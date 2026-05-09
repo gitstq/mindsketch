@@ -17,7 +17,7 @@ export const useCanvas = () => {
     pan,
     currentTool,
     addObject,
-    updateObject,
+
     selectObject,
     clearSelection,
     setPan,

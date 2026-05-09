@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Palette, Type, Layout, Settings2 } from 'lucide-react';
 import { useCanvasStore } from '@/stores';
-import type { CanvasObject } from '@/types';
+// Component for editing properties of selected canvas objects
 
 const colors = [
   '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6',

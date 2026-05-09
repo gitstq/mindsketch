@@ -7,8 +7,7 @@ export const useKeyboard = () => {
     redo,
     deleteSelected,
     duplicateSelected,
-    selectAll,
-    currentTool,
+
     setTool,
   } = useCanvasStore();
 
